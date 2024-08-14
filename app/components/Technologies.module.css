@@ -1,0 +1,17 @@
+.section {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    justify-content: flex-start;
+    background-color: #16202A;
+    color: aliceblue;
+}
+
+.technologies {
+    text-align: center;
+    margin: 20px 0;
+    color: aliceblue;
+}

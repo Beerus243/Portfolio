@@ -1,0 +1,55 @@
+.Heading {
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Open sans';
+    font-weight: 600;
+    font-style: normal;
+}
+
+.description {
+    font-family: 'Open sans';
+    font-weight: 200;
+    color: white;
+    text-indent: 450px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.additionnalInfo {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.paragraphe {
+    font-size: 0.8rem;
+    font-style: italic;
+    padding: 1rem;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.paragraphe span {
+    color: red;
+}
+
+.titre {
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: 'Open sans';
+    font-weight: 500;
+    font-style: normal;
+    color: orange;
+}
+
+.titre2 {
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: 'Open sans';
+    font-weight: 100;
+    font-style: italic;
+    color: white;
+    text-align: center;
+}
