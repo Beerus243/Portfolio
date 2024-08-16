@@ -3,11 +3,12 @@ import styles from "./Bio.module.css";
 import { MdScreenSearchDesktop } from 'react-icons/md';
 import { FaDatabase } from 'react-icons/fa';
 import { FaMobileAlt, FaGithub, FaLinkedin } from 'react-icons/fa';
+import Image from 'next/image';
 
 const Bio: React.FC = () => {
     return (
     <div className='section' id='container' >
-            <img src='./images/Portfolio.png' className='imgPortfo' alt='imgportfolio'></img>
+            <Image src='/images/Portfolio.png' className='imgPortfo' alt='imgportfolio' width={300} height={300}/>
             <h2 className={styles.Heading}> Fabrice Malanga Murbal</h2>
             <p className={styles.titre2}> Dévellopeur Fullstack</p>
             <FaGithub className='icon2' title='Github'/>
@@ -16,27 +17,27 @@ const Bio: React.FC = () => {
         <MdScreenSearchDesktop className='Desktop' title='Desktop'/>
         <p className={styles.titre}> Développement Web</p>
         <p className={styles.description}> Dans le développement il ne fait pas que coder. Il peut faire
-           le suivi des projet et son élaboration. Il va de la modélisation d'un système
-            à sa mise en ligne de l'application. Il peut aussi faire la maintenace d'une
-             application web ou d'un site web. Il fait plusieurs technologie et veut
+           le suivi des projet et son élaboration. Il va de la modélisation d&aposun système
+            à sa mise en ligne de l&aposapplication. Il peut aussi faire la maintenace d&aposune
+             application web ou d&aposun site web. Il fait plusieurs technologie et veut
               en apprendre encore plus. Dans la conception web, Fabrice peut faire les
-               deux partie d'un site web, la partie client et la partie serveur.
+               deux partie d&aposun site web, la partie client et la partie serveur.
 Technologies : HTML, CSS, JavaScript, Sql Serveur, Mysql
 conception base de données
 Tout comme pour le web, Fabrice de fait la conception des bases
  de données. Il peut étudier, modéliser et concevoir le système pour une application. Et 
  bien-sûr il peut aussi faire la maintenance de ce dernier.Dans le dévéloppement web,
-         Fabrice fait généralement du Html5, CSS3 et JavaScript. A ceci s'ajoute
+         Fabrice fait généralement du Html5, CSS3 et JavaScript. A ceci s&aposajoute
           le Sql, 
  </p>
- <p className={styles.paragraphe}><span color='red'>Technologies</span> : HTML, CSS3, JAVASCRIPT, TYPESCRIPT, REACT, NEXTJS </p>
+ <p className={styles.paragraphe}><span color="red">Technologies</span> : HTML, CSS3, JAVASCRIPT, TYPESCRIPT, REACT, NEXTJS </p>
         <FaDatabase className='Desktop' title='SQL'/>
         <p className={styles.titre}> Conception base des données</p>
         <p className={styles.description}> Dans le Domaine de base des données
-         avec une solide expertise en MySQL et SQL, je maîtrise l'art de la gestion
-          et de la manipulation des données. J'ai acquis une expérience approfondie 
+         avec une solide expertise en MySQL et SQL, je maîtrise l&aposart de la gestion
+          et de la manipulation des données. J&aposai acquis une expérience approfondie 
            la modélisation de bases de données, la création de requêtes complexes, 
-           et l'optimisation des performances des systèmes de gestion de bases de données.
+           et l&aposoptimisation des performances des systèmes de gestion de bases de données.
            <br/> 
            <br/>Mon travail inclut :
 - Modélisation des Données : Conception de schémas relationnels efficaces
@@ -45,25 +46,25 @@ Tout comme pour le web, Fabrice de fait la conception des bases
             <br/>
 - Création et Gestion des Bases de Données : Développement de bases de données robustes,
  gestion des relations entre les tables, et mise en place des contraintes pour assurer
-  l'intégrité des données.
+  l&aposintégrité des données.
             <br/>
             <br/>
 - Requêtes SQL Complexes : Extraction, transformation, et chargement (ETL) des données en
  utilisant des requêtes SQL avancées pour répondre aux besoins analytiques et opérationnels.
-- Optimisation des Performances : Mise en œuvre de stratégies d'indexation, de normalisation,
- et de partitionnement des données pour maximiser l'efficacité et réduire les temps de réponse.
+- Optimisation des Performances : Mise en œuvre de stratégies d&aposindexation, de normalisation,
+ et de partitionnement des données pour maximiser l&aposefficacité et réduire les temps de réponse.
 - Analyse et Visualisation des Données : Exploitation des données pour générer des insights
  pertinents, avec une attention particulière à la précision et à la pertinence des résultats.
         </p>
 <p className={styles.paragraphe}><span color='red' >Technologies</span> : Sql, Mysql </p>
         <br/>
-        <FaMobileAlt className='Desktop' title='Mobile'/>
+        <FaMobileAlt className='aposDesktop' title='Mobile'/>
         <p className={styles.titre}> Développement Mobile</p>
             <p className={styles.description}>
             Je possède une solide expérience avec Flutter, une technologie
              puissante pour développer des applications mobiles multiplateformes.
-              Grâce à Flutter, j'ai acquis une expertise dans la création d'interfaces
-               utilisateur élégantes et réactives, ainsi que dans l'intégration d'API et 
+              Grâce à Flutter, j&aposai acquis une expertise dans la création d&aposinterfaces
+               utilisateur élégantes et réactives, ainsi que dans l&aposintégration d&aposAPI et 
                de services backend. Mon utilisation de Flutter me permet de développer des 
                 performantes et fluides,
              tout en optimisant le temps de développement grâce à son architecture unifiée.

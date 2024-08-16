@@ -1,0 +1,29 @@
+.paragraph {
+    font-size: 0.9rem;
+    text-align: center;
+    font-family: 'Open sans';
+    font-weight: 200;
+    font-style: normal;
+    color: white;
+    font-style: italic;
+    padding: 0;
+    display: flex;
+    }
+
+.iconcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconFooter {
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+    .iconFooter:hover {
+        color: white;
+        transform: scale(1.2);
+    }

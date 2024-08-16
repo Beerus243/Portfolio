@@ -5,9 +5,9 @@ const Projects = () => (
         <h2> Mes Projects</h2>
         <ul>
             <li>
-                <a href='#'> Kelasi</a>
+                <a href='https://kelasi.vercel.app/'> Kelasi</a>
                 <a href='#'> RDV</a>
-                <a href='#'> REXAL</a>
+                <a href='https://rexal.vercel.app/'> REXAL</a>
             </li>
         </ul>
     </section>

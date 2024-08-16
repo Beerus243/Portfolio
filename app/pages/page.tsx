@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import Bio from "../components/Bio";
 import Projects from "../components/Projects";
 import Technologies from '../components/Technologies';
+import Footer from '../components/Footer';
 import "../Styles/globals.css";
 
 const Homepage = () => (
@@ -12,6 +13,7 @@ const Homepage = () => (
             <Bio />
             <Projects />
             <Technologies />
+            <Footer />
         </main>
     </div>
 );
