@@ -6,7 +6,7 @@ const Header = () => {
     <header className='header'>
         <h1> Fabrice Malanga</h1>
         <div className='header-icons'>
-    <a href='wa.me/+243991760427' target='_blank' rel='nooper'>
+    <a href='https://wa.me/+243991760427' target='_blank' rel='nooper'>
         <FaWhatsapp className="iconH" />
         </a>
         <a href='mailto:malangafabrice@gmail.com' target='_blank' rel='nooper'>
