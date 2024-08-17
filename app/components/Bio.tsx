@@ -48,7 +48,6 @@ Tout comme pour le web, Fabrice de fait la conception des bases
  gestion des relations entre les tables, et mise en place des contraintes pour assurer
   l&aposintégrité des données.
             <br/>
-            <br/>
 - Requêtes SQL Complexes : Extraction, transformation, et chargement (ETL) des données en
  utilisant des requêtes SQL avancées pour répondre aux besoins analytiques et opérationnels.
 - Optimisation des Performances : Mise en œuvre de stratégies d&aposindexation, de normalisation,
@@ -63,7 +62,7 @@ Tout comme pour le web, Fabrice de fait la conception des bases
             <p className={styles.description}>
             Je possède une solide expérience avec Flutter, une technologie
              puissante pour développer des applications mobiles multiplateformes.
-              Grâce à Flutter, j&aposai acquis une expertise dans la création d&aposinterfaces
+              Grâce à Flutter, j&aposai acquis une expertise dans la création d&aposinterfacesjuyh
                utilisateur élégantes et réactives, ainsi que dans l&aposintégration d&aposAPI et 
                de services backend. Mon utilisation de Flutter me permet de développer des 
                 performantes et fluides,
