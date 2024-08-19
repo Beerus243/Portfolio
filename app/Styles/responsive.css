@@ -1,0 +1,40 @@
+@media (max-width: 360px) {
+    .header {
+        align-items: flex-start;
+        display: flex;
+        position: fixed;
+        padding: 0 10px;
+        width: 100%;
+    }
+    .h1 {
+        font-weight: 0.3rem;
+        font-size: 0.4rem;
+    }
+}
+
+
+
+
+@media(max-width: 360px) {
+    .icons {
+        gap: 1px;
+    }
+    .icon {
+        font-size: 1px;
+    }
+    .header-icons {
+        gap: 10px;
+        display: flex;
+        color: orange;
+    }
+
+    .imgPortfo {
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        display: flex;
+        object-fit: cover;
+        align-items: center;
+        justify-content: center;
+    }
+    }

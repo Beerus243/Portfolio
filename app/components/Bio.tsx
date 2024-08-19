@@ -57,7 +57,7 @@ Tout comme pour le web, Fabrice de fait la conception des bases
         </p>
 <p className={styles.paragraphe}><span color='red' >Technologies</span> : Sql, Mysql </p>
         <br/>
-        <FaMobileAlt className='aposDesktop' title='Mobile'/>
+        <FaMobileAlt className='Desktop' title='Mobile'/>
         <p className={styles.titre}> Développement Mobile</p>
             <p className={styles.description}>
             Je possède une solide expérience avec Flutter, une technologie

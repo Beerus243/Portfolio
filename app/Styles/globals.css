@@ -10,27 +10,26 @@ header {
     font-style: normal;
     font-weight: 3rem;
     color: #ffffff;
-    height: 15%;
+    height: 60px;
     background-color: blue;
     justify-content: space-between;
     display: flex;
     align-items: center;
     box-sizing: border-box;
+    padding: 0 20px;
 }
 
 .header-icons {
     display: flex;
     gap: 13px;
-    margin-right: 50px;
     color: orange;
 }
 
 .iconH  {
-    font-size: 40px;
+    font-size: 1.5rem;
 }
 
 body {
-    margin: O;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: #16202A;
     color: #ffffff;
@@ -123,15 +122,6 @@ h2 {
     gap: 40px;
 }
 
-@media(max-width: 2s60px) {
-    .icons {
-        gap: 1px;
-    }
-    .icon {
-        font-size: 1px;
-    }
-}
-
 .TitreIcons {
     color: black;
     font-size: 1.2rem;
@@ -165,11 +155,29 @@ h2 {
     text-align: center;
     color: orange;
     transition: color 0.9s;
- transform: ease-in-out 7s;
- gap: 50px;
+    transform: ease-in-out 7s;
+     gap: 30px;
 }
 
 .icon2:hover {
     color: white;
     transform: scale(1.2);
+}
+
+
+.footer-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #16202A;
+}
+
+.ftexte {
+    font-size: 14px;
+    color: whitesmoke;
+    font-size: 0.9rem;
+    text-align: center;
+    font-family: 'Open sans';
+    font-weight: 200;
+    font-style: italic;
+    margin: 15px 0;
 }

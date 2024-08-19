@@ -2,16 +2,17 @@ import React from "react";
 import { FaGithub,FaLinkedin, FaGit } from "react-icons/fa";
 import styles from "./Footer.module.css";
 
-const Footer = () => (
-    <div className={styles.iconcontainer}>
-
-        <FaGithub className={styles.iconFooter} />
-        <FaLinkedin className={styles.iconFooter} />
-    <div className={styles.paragraph}>
-        <p className={styles.paragraph}> Copyright 2024</p>
-        <p className={styles.paragraph}> By Fabrice Malanga </p>
-    </div>
-    </div>
+const Footer : React.FC = () => { 
+    return (
+        <div className="footer-section">
+            <div className="icons">
+        <FaGithub className="icon" />
+        <FaLinkedin className="icon" />
+        </div>
+        <p className="ftexte"> Copyright 2024</p>
+        <p className="ftexte"> By Fabrice Malanga </p>
+        </div>
 );
+    };
 
 export default Footer;
