@@ -8,15 +8,12 @@ header {
     top: 0;
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 3rem;
     color: #ffffff;
-    height: 90px;
-    background-color: blue;
+    height: 60px;
     justify-content: space-between;
     display: flex;
     align-items: center;
     box-sizing: border-box;
-    padding: 0 20px;
 }
 
 .header-icons {
@@ -33,12 +30,9 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: #16202A;
     color: #ffffff;
+    width: 100%;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
-}
 header {
     background-color: #16202A;
     padding: 20px;
@@ -64,13 +58,9 @@ h2 {
     font-style: normal;
 }
 
-.container {
-    max-width: 12000px;
-    margin: 0 auto;
-    padding: 20px;
-}
 
 .section {
+    width: 95%;
     background-color: #16202A;
     padding: 20px;
     border-radius: 8px;
