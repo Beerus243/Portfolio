@@ -1,6 +1,7 @@
-@media (max-width: 760px) {
+@media (max-width: 360px) {
         .header {
-            width: 100%;
+            max-width: 100%;
+            height: 80px;
             justify-content: space-between;
             display: flex;
             padding: 10px 5px;
@@ -12,13 +13,15 @@
             font-size: 1.8rem;
         }
 
-        .header-icons {
-            color: orange;
-            font-size: 1.8rem;
-            margin-left: 200x;
-        }
+
         .description {
             text-indent: 50px;
+        }
+
+        .section {
+            max-width: 100%;
+            margin: 0 auto 20px auto;
+            box-sizing: border-box;
         }
 
 }

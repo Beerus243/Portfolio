@@ -8,8 +8,7 @@ header {
     top: 0;
     font-family: 'Poppins';
     font-style: normal;
-    color: #ffffff;
-    height: 60px;
+    height: 80px;
     justify-content: space-between;
     display: flex;
     align-items: center;
@@ -19,11 +18,11 @@ header {
 .header-icons {
     display: flex;
     gap: 13px;
-    color: orange;
 }
 
 .iconH  {
     font-size: 2.7rem;
+    color: orange;
 }
 
 body {
@@ -58,9 +57,13 @@ h2 {
     font-style: normal;
 }
 
+.a {
+    text-decoration: none;
+}
 
 .section {
-    width: 100%;
+    margin: 0 auto;
+    max-width: 100%;
     background-color: #16202A;
     padding: 20px;
     border-radius: 8px;
@@ -88,6 +91,7 @@ h2 {
 }
 
 .icons {
+    color: orange;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
