@@ -8,6 +8,7 @@ const Projects = () => (
                 <a href='https://kelasi.vercel.app/'> Kelasi</a>
                 <a href='#'> RDV</a>
                 <a href='https://rexal.vercel.app/'> REXAL</a>
+                <a href="">Quizz</a>
             </li>
         </ul>
     </section>
