@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 const Bio: React.FC = () => {
         return (
-                <div className='section' id='container' >
+                <div className='section'>
                         <Image src='/images/Portfolio.png' className='imgPortfo' alt='imgportfolio' width={300} height={300} />
                         <h2 className={styles.Heading}> Fabrice Malanga Murbal</h2>
                         <p className={styles.titre2}> Dévellopeur Fullstack</p>
@@ -57,7 +57,7 @@ const Bio: React.FC = () => {
                         </p>
                         <p className={styles.paragraphe}><span color='red' >Technologies</span> : Sql, Mysql </p>
                         <br />
-                        <FaMobileAlt className='aposDesktop' title='Mobile' />
+                        <FaMobileAlt className='Desktop' title='Mobile' />
                         <p className={styles.titre}> Développement Mobile</p>
                         <p className={styles.description}>
                                 Je possède une solide expérience avec Flutter, une technologie
