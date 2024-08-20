@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 const Bio: React.FC = () => {
         return (
-                <div className='section'>
+                <div className='footer-section'>
                         <Image src='/images/Portfolio.png' className='imgPortfo' alt='imgportfolio' width={300} height={300} />
                         <h2 className={styles.Heading}> Fabrice Malanga Murbal</h2>
                         <p className={styles.titre2}> Dévellopeur Fullstack</p>

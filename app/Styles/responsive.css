@@ -19,6 +19,7 @@
         .header-icons {
             display: flex;
             gap: 7px;
+            margin-right: 70px;
         }
         
         .iconH  {

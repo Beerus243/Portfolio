@@ -7,7 +7,7 @@ import { VscVscodeInsiders } from 'react-icons/vsc';
 import styles from "./Technologies.module.css";
 
 const  Technologies = () => (
-    <section id='technologies' className='section'>
+    <section id='technologies' className='footer-section'>
         <h2>Technologies</h2>
 <div className='icons'>
     <FaHtml5 className='icon' title='Html' />
