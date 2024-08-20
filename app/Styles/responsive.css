@@ -1,4 +1,4 @@
-@media (max-width: 360px) {
+@media screen (max-width: 360px) {
         .header {
             max-width: 100%;
             height: 80px;
@@ -16,6 +16,7 @@
 
         .description {
             text-indent: 50px;
+            font-size: 1rem;
         }
 
         .section {
