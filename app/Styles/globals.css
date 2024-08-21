@@ -82,7 +82,7 @@ h2 {
 .Desktop {
   padding: 25px;
   display: block;
-  margin: 0 auto;
+  margin: 20px auto;
   object-fit: cover;
   background-color: orange;
   border-radius: 45px;
@@ -137,7 +137,7 @@ h2 {
 
 .footer-section {
   padding-bottom: 20px;
-  width: 100%;
+  width: 90%;
   border-radius: 8px;
   box-shadow: 0 9px 14px rgba(0, 0, 0, 0.1);
   background-color: #16202a;
@@ -147,6 +147,7 @@ h2 {
   color: #ffffff;
   justify-content: center;
   align-items: center;
+  margin: auto;
 }
 
 .footer {
