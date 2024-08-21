@@ -13,10 +13,10 @@
   text-align: center;
 }
 
-.Projects li a {
+.Projects a {
   margin-top: 20px;
   margin-right: 30px;
-  color: aliceblue;
+  color: orange;
   justify-content: center;
   text-decoration: none;
   text-align: center;

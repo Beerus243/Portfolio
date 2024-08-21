@@ -17,13 +17,12 @@
 
 .paragraphe {
   font-size: 0.7rem;
-  font-style: italic;
   text-align: left;
   margin-left: 20px;
 }
 
 .paragraphe span {
-  color: red;
+  color: orange;
 }
 
 .titre {
