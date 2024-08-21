@@ -1,26 +1,26 @@
 .technologies {
-    text-align: center;
-    margin: 20px 0;
+  text-align: center;
+  margin: 20px 0;
 }
 
 .icons {
-    color: blue;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding-bottom: 10px;
+  color: blue;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-bottom: 10px;
 }
 
 .icon {
-    font-size: 40px;
-    color: orange;
-    transition: color 0.9s;
- transform: ease-in-out 7s;
- gap: 20px;
+  font-size: 40px;
+  color: orange;
+  transition: color 0.9s;
+  transform: ease-in-out 7s;
+  gap: 20px;
 }
 
 .icon:hover {
-    color: white;
-    transform: scale(1.2);
+  color: white;
+  transform: scale(1.2);
 }

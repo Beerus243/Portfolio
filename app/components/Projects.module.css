@@ -1,25 +1,23 @@
 .Heading {
-    font-size: 2rem;
-    text-align: center;
-    font-family: 'Open sans';
-    font-weight: 600;
-    font-style: normal;
+  font-size: 2rem;
+  text-align: center;
+  font-family: 'Open sans';
+  font-weight: 600;
+  font-style: normal;
 }
 
 .Projects {
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  text-align: center;
 }
-
 
 .Projects li a {
-    margin-top: 20px;
-    margin-right: 30px;
-    color: aliceblue;
-    justify-content: center;
-    text-decoration: none;
-    text-align: center;
+  margin-top: 20px;
+  margin-right: 30px;
+  color: aliceblue;
+  justify-content: center;
+  text-decoration: none;
+  text-align: center;
 }
-
