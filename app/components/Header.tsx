@@ -3,7 +3,7 @@ import { FaWhatsapp, FaEnvelope } from 'react-icons/fa';
 
 const Header = () => {
     return (
-    <header className='header'>
+    <header className='Header'>
         <h1 className='titreHeader'> Fabrice Malanga</h1>
         <div className='header-icons'>
     <a href='https://wa.me/+243991760427' target='_blank' rel='nooper'>

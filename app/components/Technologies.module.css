@@ -1,17 +1,26 @@
-.section {
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-    text-align: center;
-    text-decoration: none;
-    justify-content: flex-start;
-    background-color: #16202A;
-    color: aliceblue;
-}
-
 .technologies {
     text-align: center;
     margin: 20px 0;
-    color: aliceblue;
+}
+
+.icons {
+    color: blue;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 10px;
+}
+
+.icon {
+    font-size: 40px;
+    color: orange;
+    transition: color 0.9s;
+ transform: ease-in-out 7s;
+ gap: 20px;
+}
+
+.icon:hover {
+    color: white;
+    transform: scale(1.2);
 }

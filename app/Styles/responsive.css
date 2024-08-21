@@ -5,25 +5,27 @@
             justify-content: space-between;
             display: flex;
             text-align: center;
+            margin-bottom: 20px;
         }
 
         .titreHeader {
-            font-size: 1.9rem;
-            text-align: center;
+            top: 0;
+            text-align: start;
+            font-size: 1.5rem;
             font-family: 'Open sans';
             font-weight: 600;
             font-style: normal;
-            text-align: start;
+            margin-right: 60px;
         }
 
         .header-icons {
             display: flex;
             gap: 7px;
-            margin-right: 70px;
+            margin-right: 20px;
         }
         
         .iconH  {
-            font-size: 1.7rem;
+            font-size: 1.6rem;
             color: orange;
         }
 
@@ -44,7 +46,7 @@
         }
 
         .Heading {
-            font-size: 2.0rem;
+            font-size: 3.0rem;
             font-weight: 600;
             margin: 0;
         }

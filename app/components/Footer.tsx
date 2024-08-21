@@ -4,7 +4,7 @@ import styles from "./Footer.module.css";
 
 const Footer : React.FC = () => { 
     return (
-        <div className="footer-section">
+        <div className="footer" id="footer">
             <div className="icons">
         <FaGithub className="icon" />
         <FaLinkedin className="icon" />

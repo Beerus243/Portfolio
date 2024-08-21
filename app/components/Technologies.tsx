@@ -1,13 +1,15 @@
 import React from 'react';
+import styles from "./Technologies.module.css";
 import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaGit, FaGithub, FaChrome,
      FaPython, FaGoogle, FaDatabase } from 'react-icons/fa';
 import { SiMysql,SiFlutter, SiMicrosoftword, SiMicrosoftexcel, SiTypescript, SiAdobephotoshop, SiAdobeillustrator, SiAdobeaftereffects } from 'react-icons/si';
 import { RiNetflixFill, RiNextjsFill } from 'react-icons/ri';
 import { VscVscodeInsiders } from 'react-icons/vsc';
-import styles from "./Technologies.module.css";
 
-const  Technologies = () => (
-    <section id='technologies' className='footer-section'>
+
+const  Technologies : React.FC = () => {
+    return (
+    <div className='footer-section' id='technologies'>
         <h2>Technologies</h2>
 <div className='icons'>
     <FaHtml5 className='icon' title='Html' />
@@ -32,7 +34,8 @@ const  Technologies = () => (
     <SiFlutter className='icon' title='Flutter' />
 
 </div>
-   </section>
+   </div>
 );
+    };
 
 export default Technologies;

@@ -2,9 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 header {
+    margin-bottom: 20px;
     position: fixed;
     width: 100%;
-    top: 0;
+    position: relative;
     font-family: 'Poppins';
     font-style: normal;
     height: 80px;
@@ -12,28 +13,24 @@ header {
     display: flex;
     align-items: center;
     box-sizing: border-box;
+    background-color: #16202A;
 }
 
 .header-icons {
     display: flex;
-    gap: 13px;
+    gap: 10px;
+    margin-right: 25px;
 }
 
 .iconH  {
-    font-size: 2.7rem;
+    font-size: 2.1rem;
     color: orange;
 }
 
-body {
-    color: #ffffff;
-    width: 100%;
+body, html {
+    max-width: 100%;
 }
 
-header {
-    background-color: #16202A;
-    padding: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
 
 h1 {
     font-size: 2rem;
@@ -59,53 +56,15 @@ h2 {
     background-color: yellow;
 }
 
-.section {
-    width: 100%;
-    background-color: #16202A;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 9px 14px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-    text-align: center;
-    text-decoration: none;
-    justify-content: flex-start;
-    color: #ffffff;
-}
-
 .imgPortfo {
-    padding: 70px;
+    padding-top: 30px;
     height: 300px;
     border-radius: 50%;
-    display: block;
     margin: 0 auto;
-    object-fit: cover;
-}
-
-
-.technologies {
-    text-align: center;
-    margin: 20px 0;
-}
-
-.icons {
-    color: orange;
-    display: flex;
+    align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.icon {
-    font-size: 40px;
-    color: orange;
-    transition: color 0.9s;
- transform: ease-in-out 7s;
- gap: 20px;
-}
-
-.icon:hover {
-    color: white;
-    transform: scale(1.2);
+    display: block;
+    object-fit: cover;
 }
 
 .projects {
@@ -141,13 +100,14 @@ h2 {
 
 .icon2 {
     font-size: 40px;
-    margin-right: 30px;
+    margin-right: 15px;
     justify-content: center;
     text-align: center;
+    align-items: center;
     color: orange;
     transition: color 0.9s;
     transform: ease-in-out 7s;
-     gap: 30px;
+    gap: 30px;
 }
 
 .icon2:hover {
@@ -155,18 +115,51 @@ h2 {
     transform: scale(1.2);
 }
 
+.icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.icon {
+    font-size: 40px;
+    color: orange;
+    transition: color 0.9s;
+    transform: ease-in-out 7s;
+    gap: 20px;
+}
+
+.icon:hover {
+    color: white;
+    transform: scale(1.2);
+}
+
 
 .footer-section {
+    padding-bottom: 20px;
     width: 100%;
     background-color: #16202A;
-    padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 9px 14px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
     text-align: center;
     text-decoration: none;
-    justify-content: flex-start;
     color: #ffffff;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    padding-top: 5px;
+    padding-bottom: 3px;
+    margin-top: 20px;
+    width: 100%;
+    background-color: #16202A;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
 }
 
 .ftexte {

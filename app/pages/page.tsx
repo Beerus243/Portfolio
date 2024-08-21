@@ -9,13 +9,11 @@ import "../Styles/responsive.css";
 
 const Homepage = () => (
     <div>
-        <Header />
-        <main className='container'>
+        <Header/>
             <Bio />
             <Projects />
             <Technologies />
             <Footer />
-        </main>
     </div>
 );
 
