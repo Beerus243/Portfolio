@@ -6,15 +6,17 @@ import { FaMobileAlt, FaGithub, FaLinkedin } from 'react-icons/fa';
 import Image from 'next/image';
 
 const Bio: React.FC = () => {
-        return (
-                <div className='footer-section'>
-                        <Image src='/images/Portfolio.png' className='imgPortfo' alt='imgportfolio' width={300} height={300} />
-                        <h2 className={styles.Heading}> Fabrice Malanga Murbal</h2>
-                        <p className={styles.titre2}> Dévellopeur Fullstack</p>
-                        <FaGithub className='icon2' title='Github' />
-                        <FaLinkedin className='icon2' title='Linkedin' />
-                        <h3 className={styles.Heading}> Que fait Fabrice ?</h3>
-                        <MdScreenSearchDesktop className='Desktop' title='Desktop' />
+  return (
+   <div className='footer-section'>
+       <Image src='/images/Portfolio.png' className='imgPortfo' alt='imgportfolio' width={300} height={300} />
+              <h2 className={styles.Heading}> Fabrice Malanga Murbal</h2>
+              <p className={styles.titre2}> Dévellopeur Fullstack</p>
+                <a href='https://github.com/Beerus243/'>
+                        <FaGithub className='icon2' title='Github' /> </a>
+                <a href = 'https://github.com/Beerus243/'>
+                        <FaLinkedin className='icon2' title='Linkedin' /> </a>
+                <h3 className={styles.Heading}> Que fait Fabrice ?</h3>
+                 <MdScreenSearchDesktop className='Desktop' title='Desktop' />
                         <p className={styles.titre}> Développement Web</p>
                         <p className={styles.description}> Dans le développement il ne fait pas que coder. Il peut faire
                                 le suivi des projet et son élaboration. Il va de la modélisation d&aposun système

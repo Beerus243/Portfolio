@@ -9,6 +9,7 @@
         }
 
         .titreHeader {
+            padding-top: 5px;
             top: 0;
             text-align: start;
             font-size: 1.5rem;
@@ -25,19 +26,35 @@
         }
         
         .iconH  {
-            font-size: 1.6rem;
+            font-size: 1.8rem;
             color: orange;
         }
 
         .icon2 {
             font-size: 30px;
-            margin-right: 20px;
+            margin-right: 10px;
             justify-content: center;
             text-align: center;
             color: orange;
             transition: color 0.9s;
             transform: ease-in-out 7s;
              gap: 20px;
+        }
+
+        .icon {
+            font-size: 30px;
+            color: orange;
+            transition: color 0.9s;
+            transform: ease-in-out 7s;
+            gap: 10px;
+        }
+
+        
+        .icons {
+              display: flex;
+              justify-content: center;
+                flex-wrap: wrap;
+                 gap: 10px;
         }
         
         .icon2:hover {
@@ -52,7 +69,7 @@
         }
 
         .titre2 {
-            font-size: 0.8rem;
+            font-size: 0.5rem;
             text-align: center;
             font-family: 'Open sans';
             font-weight: 100;
@@ -64,7 +81,7 @@
 
         .description {
             text-indent: 50px;
-            font-size: 1rem;
+            font-size: 0.7rem;
         }
 
         .section {

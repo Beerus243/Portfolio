@@ -1,0 +1,24 @@
+.Heading {
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Open sans';
+    font-weight: 600;
+    font-style: normal;
+}
+
+.Projects {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.Projects li a {
+    margin-right: 50px;
+    color: aliceblue;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+}
+

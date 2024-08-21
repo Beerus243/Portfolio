@@ -1,8 +1,11 @@
 import React from  'react';
+import styles from './Projects.module.css';
 
-const Projects = () => (
-    <section id='projects' className='footer-section'>
-        <h2> Mes Projects</h2>
+const Projects : React.FC = () => {
+    return(
+         <section className='footer-section'>
+        <h2 className={styles.Heading}> Mes Projects</h2>
+        <div className={styles.Projects}>
         <ul>
             <li>
                 <a href='https://kelasi.vercel.app/'> Kelasi</a>
@@ -11,7 +14,9 @@ const Projects = () => (
                 <a href="">Quizz</a>
             </li>
         </ul>
+        </div>
     </section>
 );
+    };
 
 export default Projects;
