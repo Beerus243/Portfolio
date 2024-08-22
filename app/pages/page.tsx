@@ -6,6 +6,7 @@ import Technologies from '../components/Technologies';
 import Footer from '../components/Footer';
 import '../Styles/globals.css';
 import '../Styles/responsive.css';
+import Parcours from '../components/Parcours';
 
 const Homepage = () => (
   <div>
@@ -13,6 +14,7 @@ const Homepage = () => (
     <Bio />
     <Projects />
     <Technologies />
+    <Parcours />
     <Footer />
   </div>
 );

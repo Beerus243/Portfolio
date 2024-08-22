@@ -9,13 +9,14 @@ const Bio: React.FC = () => {
   return (
     <>
       <div className="footer-section">
-        <Image
+       <div className='image-container'>
+         <Image
           src="/images/Portfolio.png"
           className="imgPortfo"
           alt="imgportfolio"
           width={300}
           height={300}
-        />
+        /></div>
         <h2 className={styles.Heading}> Fabrice Malanga Murbal</h2>
         <p className={styles.titre2}> Dévellopeur Fullstack</p>
         <a href="https://github.com/Beerus243/">
@@ -28,10 +29,10 @@ const Bio: React.FC = () => {
         <p className={styles.titre}> Développement Web</p>
         <p className={styles.description}>
           {' '}
-          Dans le développement Web il ne fait pas que coder. Il peut faire le
-          suivi des projet et son élaboration. Il va de la modélisation d'un
+          Dans le développement Web... Fabrice ne fait pas que coder, Il peut aussi faire le
+          suivi des projets et son élaboration. Il va de la modélisation d'un
           système à sa mise en ligne. Il peut aussi faire la maintenace d'une
-          application web ou d'un site web. Il fait plusieurs technologie et
+          application web ou d'un site web. Il fait plusieurs technologies et
           veut en apprendre encore plus. Dans la conception web, Fabrice peut
           faire le front et Backend d'un site Web.
         </p>
@@ -51,12 +52,12 @@ const Bio: React.FC = () => {
           des performances des systèmes de gestion de bases de données.
           <br />
           <br />
-          Mon travail inclut : - Modélisation des Données : Conception de
+          Mon travail inclut : - Modélisation des Données : Conception des
           schémas relationnels efficaces pour organiser et structurer les
           informations en fonction des besoins spécifiques des projets.
           <br />
           <br />
-          - Création et Gestion des Bases de Données : Développement de bases de
+          - Création et Gestion des Bases de Données : Développement des bases des
           données robustes, gestion des relations entre les tables, et mise en
           place des contraintes pour assurer l'intégrité des données.
           <br />- Requêtes SQL Complexes : Extraction, transformation, et

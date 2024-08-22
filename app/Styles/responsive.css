@@ -12,7 +12,7 @@
     padding-top: 5px;
     top: 0;
     text-align: start;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-family: 'Open sans';
     font-weight: 600;
     font-style: normal;
@@ -26,7 +26,7 @@
   }
 
   .iconH {
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     color: orange;
   }
 
@@ -78,6 +78,7 @@
   }
 
   .description {
+    text-align: left;
     margin-right: 20px;
     margin-left: 20px;
     font-family: 'Open sans';
@@ -100,9 +101,8 @@
 
   .imgPortfo {
     padding-top: 30px;
-    width: 230px;
-    height: 250px;
-    border-radius: 58%;
+    width: 200px;
+    height: 200px;
     margin: 0 auto;
   }
 }

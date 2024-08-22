@@ -1,0 +1,16 @@
+.Heading {
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Open sans';
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .description {
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: 'Open sans';
+    font-weight: 200;
+    color: white;
+    text-align: justify;
+  }

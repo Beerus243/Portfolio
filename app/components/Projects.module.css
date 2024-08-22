@@ -14,10 +14,11 @@
 }
 
 .Projects a {
-  margin-top: 20px;
-  margin-right: 30px;
+  font-size: 1rem;
+  font-weight: 400;
+  display: flex;
+  margin-right: 20px auto;
   color: orange;
-  justify-content: center;
   text-decoration: none;
   text-align: center;
 }
