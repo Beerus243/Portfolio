@@ -10,7 +10,7 @@ const Projects: React.FC = () => {
         <a href="#"> RDV</a>
         <a href="https://rexal.vercel.app/"> REXAL</a>
         <a href="">Quizz</a>
-        <a href="https://Github.Beerus243.Portfolio/"> Mon Portfolio</a>
+        <a href="https://github.com/Beerus243/Portfolio"> Mon Portfolio</a>
       </div>
     </section>
   );
