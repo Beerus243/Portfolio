@@ -9,14 +9,15 @@ const Bio: React.FC = () => {
   return (
     <>
       <div className="footer-section">
-       <div className='image-container'>
-         <Image
-          src="/images/Portfolio.png"
-          className="imgPortfo"
-          alt="imgportfolio"
-          width={300}
-          height={300}
-        /></div>
+        <div className="image-container">
+          <Image
+            src="/images/Portfolio.png"
+            className="imgPortfo"
+            alt="imgportfolio"
+            width={300}
+            height={300}
+          />
+        </div>
         <h2 className={styles.Heading}> Fabrice Malanga Murbal</h2>
         <p className={styles.titre2}> Dévellopeur Fullstack</p>
         <a href="https://github.com/Beerus243/">
@@ -29,12 +30,12 @@ const Bio: React.FC = () => {
         <p className={styles.titre}> Développement Web</p>
         <p className={styles.description}>
           {' '}
-          Dans le développement Web... Fabrice ne fait pas que coder, Il peut aussi faire le
-          suivi des projets et son élaboration. Il va de la modélisation d'un
-          système à sa mise en ligne. Il peut aussi faire la maintenace d'une
-          application web ou d'un site web. Il fait plusieurs technologies et
-          veut en apprendre encore plus. Dans la conception web, Fabrice peut
-          faire le front et Backend d'un site Web.
+          Dans le développement Web... Fabrice ne fait pas que coder, Il peut
+          aussi faire le suivi des projets et son élaboration. Il va de la
+          modélisation d'un système à sa mise en ligne. Il peut aussi faire la
+          maintenace d'une application web ou d'un site web. Il fait plusieurs
+          technologies et veut en apprendre encore plus. Dans la conception web,
+          Fabrice peut faire le front et Backend d'un site Web.
         </p>
         <p className={styles.paragraphe}>
           <span color="orange">Technologies</span> : HTML, CSS3, JAVASCRIPT,
@@ -57,9 +58,9 @@ const Bio: React.FC = () => {
           informations en fonction des besoins spécifiques des projets.
           <br />
           <br />
-          - Création et Gestion des Bases de Données : Développement des bases des
-          données robustes, gestion des relations entre les tables, et mise en
-          place des contraintes pour assurer l'intégrité des données.
+          - Création et Gestion des Bases de Données : Développement des bases
+          des données robustes, gestion des relations entre les tables, et mise
+          en place des contraintes pour assurer l'intégrité des données.
           <br />- Requêtes SQL Complexes : Extraction, transformation, et
           chargement (ETL) des données en utilisant des requêtes SQL avancées
           pour répondre aux besoins analytiques et opérationnels. - Optimisation

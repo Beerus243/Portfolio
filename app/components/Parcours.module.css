@@ -1,38 +1,38 @@
 .Heading {
-    font-size: 2rem;
-    text-align: center;
-    font-family: 'Open sans';
-    font-weight: 600;
-    font-style: normal;
-  }
+  font-size: 2rem;
+  text-align: center;
+  font-family: 'Open sans';
+  font-weight: 600;
+  font-style: normal;
+}
 
-  .description {
-    margin-right: 20px;
-    margin-left: 20px;
-    font-family: 'Open sans';
-    font-weight: 200;
-    color: white;
-    text-align: justify;
-  }
+.description {
+  margin-right: 20px;
+  margin-left: 20px;
+  font-family: 'Open sans';
+  font-weight: 200;
+  color: white;
+  text-align: justify;
+}
 
-  .icon {
-    font-size: 40px;
-    color: orange;
-    transition: color 0.9s;
-    transform: ease-in-out 7s;
-    gap: 20px;
-  }
-  
-  .icon:hover {
-    color: white;
-    transform: scale(1.2);
-  }
+.icon {
+  font-size: 40px;
+  color: orange;
+  transition: color 0.9s;
+  transform: ease-in-out 7s;
+  gap: 20px;
+}
 
-  .titre {
-    font-size: 1.2rem;
-    text-align: center;
-    font-family: 'Open sans';
-    font-weight: 500;
-    font-style: normal;
-    color: orange;
-  }
+.icon:hover {
+  color: white;
+  transform: scale(1.2);
+}
+
+.titre {
+  font-size: 1.2rem;
+  text-align: center;
+  font-family: 'Open sans';
+  font-weight: 500;
+  font-style: normal;
+  color: orange;
+}
