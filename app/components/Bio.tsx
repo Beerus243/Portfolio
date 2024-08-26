@@ -23,8 +23,8 @@ const Bio: React.FC = () => {
         <a href="https://github.com/Beerus243/">
           <FaGithub className="icon2" title="Github" />{' '}
         </a>
-        <a href="https://linkedin.com/in/fabrice-malanga"></a>
-        <FaLinkedin className="icon2" title="Linkedin" />
+        <a href="https://linkedin.com/in/fabrice-malanga">
+        <FaLinkedin className="icon2" title="Linkedin" /></a>
         <h3 className={styles.Heading}> Que fait Fabrice ?</h3>
         <MdScreenSearchDesktop className="Desktop" title="Desktop" />
         <p className={styles.titre}> Développement Web</p>
