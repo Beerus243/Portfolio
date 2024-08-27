@@ -11,7 +11,7 @@ const Bio: React.FC = () => {
       <div className="footer-section">
         <div className="image-container">
           <Image
-            src="/images/Portfolio.jpg"
+            src="/images/Porfolio.jpg"
             className="imgPortfo"
             alt="imgportfolio"
             width={225}
