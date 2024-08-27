@@ -60,15 +60,12 @@ h2 {
 }
 
 .imgPortfo {
-  padding-top: 30px;
-  width: 300px;
-  height: 300px;
-  border-radius: 60%;
-  margin: 0 auto;
+  width: 225px;
+  height: 225px;
+  border-radius: 150px;
+  display: flex;
   align-items: center;
-  justify-content: center;
-  display: block;
-  object-fit: cover;
+  overflow: hidden;
 }
 
 .projects {

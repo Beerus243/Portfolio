@@ -14,7 +14,7 @@ const Bio: React.FC = () => {
             src="/images/Portfolio2.jpg"
             className="imgPortfo"
             alt="imgportfolio"
-            width={300}
+            width={225}
             height={300}
           />
         </div>
