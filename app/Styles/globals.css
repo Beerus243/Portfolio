@@ -60,9 +60,9 @@ h2 {
 }
 
 .imgPortfo {
-  width: 225px;
-  height: 225px;
-  border-radius: 150px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
   display: flex;
   align-items: center;
   overflow: hidden;
